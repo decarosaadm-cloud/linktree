@@ -66,11 +66,7 @@ h1 span{color:var(--rojo)}
   font-size:12px;font-weight:500;color:var(--gris);
   letter-spacing:2.5px;text-transform:uppercase;
 }
-.franja{display:flex;justify-content:center;gap:6px;margin:26px 0 44px}
-.franja i{display:block;height:3px;width:28px;border-radius:2px}
-.franja i:nth-child(1){background:var(--azul)}
-.franja i:nth-child(2){background:var(--blanco)}
-.franja i:nth-child(3){background:var(--rojo)}
+header{margin-bottom:44px}
 
 /* =========================================================
    4. SECCIONES
@@ -110,6 +106,10 @@ h1 span{color:var(--rojo)}
 .ico.whatsapp{background:#25D366}
 .ico.mail{background:#FFFFFF}
 .ico.outlook{background:#FFFFFF}
+.ico.maps{background:#FFFFFF}
+.ico.instagram{background:radial-gradient(circle at 30% 107%,#fdf497 0%,#fdf497 5%,#fd5949 45%,#d6249f 60%,#285AEB 90%)}
+.ico.facebook{background:#1877F2}
+.ico.linkedin{background:#0A66C2}
 
 .btn .txt{flex:1;display:flex;flex-direction:column;gap:3px;min-width:0}
 .btn .txt small{
@@ -159,7 +159,6 @@ footer{
     </div>
     <h1>DE-CA-RO <span>S.A.</span></h1>
     <p class="bajada">Pedidos · Cotizaciones · Consultas</p>
-    <div class="franja"><i></i><i></i><i></i></div>
   </header>
 
   <section class="seccion">
@@ -180,7 +179,17 @@ footer{
       </span>
       <span class="flecha">→</span>
     </a>
+    <a class="btn" href="https://www.google.com/maps/dir//Decaro+S.A.,+Av.+32+1534,+B1902BMR+La+Plata,+Provincia+de+Buenos+Aires/@-34.9110272,-57.9698688,5455m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x95a2e794f18ea5a3:0x2b4105e3d5262918!2m2!1d-57.987894!2d-34.9181888?entry=ttu&amp;g_ep=EgoyMDI2MTAxOC4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener">
+      <span class="ico maps">
+        <svg viewBox="0 0 48 48"><path fill="#EA4335" d="M24 3C15.7 3 9 9.6 9 17.8 9 29 24 45 24 45s15-16 15-27.2C39 9.6 32.3 3 24 3z"/><path fill="#C5221F" d="M24 3c8.3 0 15 6.6 15 14.8C39 29 24 45 24 45z" opacity=".35"/><circle cx="24" cy="18" r="5.5" fill="#fff"/></svg>
+      </span>
+      <span class="txt">Ir al local
+        <small>Av. 32 N° 1534, La Plata</small>
+      </span>
+      <span class="flecha">→</span>
+    </a>
   </section>
+
 
   <section class="seccion">
     <h2>Pedidos, cotización y consulta por WhatsApp</h2>
@@ -221,6 +230,40 @@ footer{
       </span>
       <span class="txt">decaro_sa@hotmail.com
         <small>Enviar correo · Outlook</small>
+      </span>
+      <span class="flecha">→</span>
+    </a>
+  </section>
+
+  <section class="seccion">
+    <h2>Seguinos en redes</h2>
+
+    <a class="btn" href="https://www.instagram.com/aluminiodecaro.sa/" target="_blank" rel="noopener">
+      <span class="ico instagram">
+        <svg viewBox="0 0 48 48" fill="none" stroke="#fff" stroke-width="3.4"><rect x="9" y="9" width="30" height="30" rx="9"/><circle cx="24" cy="24" r="7"/><circle cx="33" cy="15" r="1.2" fill="#fff" stroke="none"/></svg>
+      </span>
+      <span class="txt">Instagram
+        <small>@aluminiodecaro.sa</small>
+      </span>
+      <span class="flecha">→</span>
+    </a>
+
+    <a class="btn" href="https://www.facebook.com/aluminiodecaro.sa" target="_blank" rel="noopener">
+      <span class="ico facebook">
+        <svg viewBox="0 0 48 48"><path fill="#fff" d="M27 44V27h5.6l.9-6.6H27v-4.2c0-1.9.5-3.2 3.3-3.2h3.4V7.1c-.6-.1-2.6-.3-5-.3-5 0-8.4 3-8.4 8.6v5H15V27h5.3v17z"/></svg>
+      </span>
+      <span class="txt">Facebook
+        <small>/aluminiodecaro.sa</small>
+      </span>
+      <span class="flecha">→</span>
+    </a>
+
+    <a class="btn" href="https://www.linkedin.com/company/decaro-sa/" target="_blank" rel="noopener">
+      <span class="ico linkedin">
+        <svg viewBox="0 0 48 48" fill="#fff"><rect x="10" y="19" width="6" height="19"/><circle cx="13" cy="12.5" r="3.5"/><path d="M21 19h5.8v2.6c.9-1.6 3-3.1 6.1-3.1 5.4 0 6.6 3.4 6.6 8V38h-6v-9.8c0-2.4-.4-4.5-3-4.5s-3.5 1.8-3.5 4.5V38h-6z"/></svg>
+      </span>
+      <span class="txt">LinkedIn
+        <small>DE-CA-RO S.A.</small>
       </span>
       <span class="flecha">→</span>
     </a>

@@ -1,0 +1,15 @@
+{
+  "name": "DE-CA-RO S.A.",
+  "short_name": "DE-CA-RO",
+  "description": "Pedidos, cotizaciones y consultas — DE-CA-RO S.A., distribuidor oficial MDT Aluminio.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0B0E14",
+  "theme_color": "#0B0E14",
+  "lang": "es-AR",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
